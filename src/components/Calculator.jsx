@@ -59,7 +59,7 @@ function Calculator() {
       <div className="w-[100%] h-[100vh]  bg-black  flex flex-row gap-3 items-center justify-center overflow-scroll  transition-all">
         <div
           id="hover"
-          className="md:w-[30%] w-[90%]  border-gray-200 hover:drop-shadow-xl hover:drop-shadow-teal-400   md:h-[80vh] h-[90vh] fixed   bg-neutral-900 border-4  transform  transition-all duration-700  text-gray-500 hover:border-teal-400  px-10  rounded-md   justify-center flex flex-col gap-2 "
+          className="md:w-[30%] w-[90%]  border-gray-200 hover:drop-shadow-xl hover:drop-shadow-teal-400   md:h-[80vh] h-[93vh] fixed   bg-neutral-900 border-4  transform  transition-all duration-700  text-gray-500 hover:border-teal-400  px-10  rounded-md   justify-center flex flex-col gap-2 "
         >
           <div className="flex hover:drop-shadow-teal-400 hover:drop-shadow-xl items-center  transition-all justify-center">
             {" "}
