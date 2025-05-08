@@ -56,9 +56,9 @@ function Calculator() {
 
   return (
     <>
-      <div className="w-[100%] h-[100vh] transition-all bg-black  flex flex-row gap-3 items-center justify-center overflow-scroll">
-        <div className="md:w-[30%] w-[90%] transition-all md:h-[80vh] h-[90vh] fixed  bg-neutral-900 border-4 text-gray-500 border-teal-400  px-10  rounded-md   justify-center flex flex-col gap-2 ">
-          <div className="flex items-center transition-all justify-center">
+      <div className="w-[100%] h-[100vh]  bg-black  flex flex-row gap-3 items-center justify-center overflow-scroll  transition-all">
+        <div className="md:w-[30%] w-[90%]  hover:drop-shadow-xl hover:drop-shadow-teal-400   md:h-[80vh] h-[90vh] fixed  bg-neutral-900 border-4 border-transparent transform  transition-all duration-700  text-gray-500 hover:border-teal-400  px-10  rounded-md   justify-center flex flex-col gap-2 ">
+          <div className="flex items-center justify-center">
             {" "}
             <h1 className="font-bold text-3xl text-teal-400 font-[Poppins]">
               Risk Calculator
