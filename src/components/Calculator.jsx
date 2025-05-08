@@ -57,10 +57,16 @@ function Calculator() {
   return (
     <>
       <div className="w-[100%] h-[100vh]  bg-black  flex flex-row gap-3 items-center justify-center overflow-scroll  transition-all">
-        <div className="md:w-[30%] w-[90%]  hover:drop-shadow-xl hover:drop-shadow-teal-400   md:h-[80vh] h-[90vh] fixed  bg-neutral-900 border-4 border-transparent transform  transition-all duration-700  text-gray-500 hover:border-teal-400  px-10  rounded-md   justify-center flex flex-col gap-2 ">
-          <div className="flex items-center justify-center">
+        <div
+          id="hover"
+          className="md:w-[30%] border-gray-200 w-[90%]  hover:drop-shadow-xl hover:drop-shadow-teal-400   md:h-[80vh] h-[93vh] fixed   bg-neutral-900 border-4 transform  transition-all duration-700  text-gray-500 hover:border-teal-400  px-10  rounded-md   justify-center flex flex-col gap-2 "
+        >
+          <div className="flex hover:drop-shadow-teal-400 hover:drop-shadow-xl items-center  transition-all justify-center">
             {" "}
-            <h1 className="font-bold text-3xl text-teal-400 font-[Poppins]">
+            <h1
+              id="hover"
+              className="font-bold text-3xl text-teal-400 font-[Poppins] mb-5"
+            >
               Risk Calculator
             </h1>
           </div>
@@ -126,7 +132,8 @@ function Calculator() {
           </div>
 
           <button
-            className="w-[100%] hover:scale-103   p-2 rounded-md bg-teal-400 text-white font-bold"
+            id="hover"
+            className="w-[60%] ml-16 mt-5 hover:drop-shadow-teal-400 hover:drop-shadow-lg transition-all hover:scale-101  p-2 rounded-md bg-teal-400 text-white font-bold"
             onClick={() => {
               checkResult();
               openPopup();
